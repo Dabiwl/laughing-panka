@@ -1,0 +1,50 @@
+/* Reset básico */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px; /* Espacio interno */
+}
+
+/* FLEXBOX: La herramienta mágica para Responsive Design */
+.contenedor-flex {
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  gap: 20px; /* Espacio entre elementos */
+  padding: 40px;
+  background-color: #ddd;
+
+  /* Hace que se adapte a móviles: si no caben, bajan a la siguiente línea */
+  flex-wrap: wrap;
+}
+
+.caja {
+  background-color: #007bff;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.panel-js {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+footer {
+  background-color: #222;
+  color: #aaa;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

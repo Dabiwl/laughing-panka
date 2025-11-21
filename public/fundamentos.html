@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- RESPONSIVE DESIGN: Este meta tag es crucial. 
+         Le dice al navegador que ajuste el ancho de la página al ancho del dispositivo (móvil/tablet). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundamentos Web</title>
+
+    <!-- Enlazamos nuestros estilos externos -->
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <!-- HTML SEMÁNTICO: Usamos etiquetas que describen el contenido -->
+    <header>
+      <h1>Ejercicios de Fundamentos</h1>
+      <p>Aprendiendo HTML, CSS y JS básico</p>
+    </header>
+
+    <section class="contenedor-flex">
+      <!-- Cajas para probar Flexbox -->
+      <div class="caja">Elemento 1</div>
+      <div class="caja">Elemento 2</div>
+      <div class="caja">Elemento 3</div>
+    </section>
+
+    <section class="panel-js">
+      <h2>Resultados de JavaScript</h2>
+      <p>
+        Abre la consola del navegador (F12) para ver la lógica ejecutándose.
+      </p>
+      <button onclick="probarLogica()">Ejecutar Pruebas JS</button>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 - Taller Web Full Stack</p>
+    </footer>
+
+    <!-- JAVASCRIPT: Insertamos el script al final del body para no bloquear la carga visual -->
+    <script src="logica.js"></script>
+  </body>
+</html>
