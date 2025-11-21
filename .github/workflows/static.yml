@@ -27,7 +27,7 @@ jobs:
           node-version: "20"
 
       - name: Instalar dependencias
-        run: npm ci # Similar a npm install pero más limpio para servidores
+        run: npm install
 
       - name: Construir Proyecto (Build)
         run: npm run build
